@@ -6,10 +6,10 @@ The root access of the API is at https://hysky.000webhostapp.com/apihandle.php
 
 So let me tell you how this API exactly works: 
 
-- First of all there is a cron job that is triggered every **2 minutes** to update and cache literally every single (Not eneded) auction on skyblock.
+- First of all there is a cron job that is triggered every **2 minutes** to update (cache) literally every single (Not ended) auction on skyblock.
 - Then apihandle.php is what's actually sorting, searching and returning the JSON output of the request through all the Cached auctions.
 And that's it really!
-- Note that every request will only return up to 200 auctions to ensure convenience and performance of the API.
+- Note that every request will only return up to 200 auctions to ensure convenience and quality performance of the API.
 
 So First of all let's take a look at what are we actually going to be working with:
 (Example Output)
