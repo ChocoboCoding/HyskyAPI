@@ -57,7 +57,9 @@ Now let's get into how to make requests to the API:
 ```https://hysky.000webhostapp.com/apihandle.php?key={API_KEY}&req=top```
 
 This will return the (first 200) most expensive auctions.
+
 ---
+
 ```https://hysky.000webhostapp.com/apihandle.php?key={API_KEY}&req=search&query={SEARCH_QUERY}```
 
 This will search through the given search query, also note that this exactly works like skyah's search, so if you entered "/ah Mlotov" in the query it will only show the available auctions of that player only.
