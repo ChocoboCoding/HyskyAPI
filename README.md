@@ -64,8 +64,11 @@ This will search through the given search query, also note that this exactly wor
 To get very specific results please remove any white spaces between words, ex: "StrongDragonBoots".
 
 Here's a list of features you can make use of in the search query:
--Smart search, more on that here -> https://skyah.cc/smart
--/ah {Playername} -h to show a player's auctions history.
+
+- Smart search, more on that here -> https://skyah.cc/smart
+
+- /ah {Playername} -h to show a player's auctions history.
+
 - /ebs {Enchants} to search for enchanted items, add "book" or "potion" at the end to search for only books or potions.
 
 
