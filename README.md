@@ -1,7 +1,9 @@
 # HyskyAPI | Intro
-Unofficial Hypixel API created for handling Auctions of Skyblock gamemode with ease and efficiency.
+
+An Unofficial Hypixel API created for handling Auctions of Skyblock gamemode with ease and efficiency.
 
 # Working with the API
+
 The root of the API is at https://hysky.000webhostapp.com/apihandle.php
 
 Right now you can access the API for free without an API key as it's still in Beta.
