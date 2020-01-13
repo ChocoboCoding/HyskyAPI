@@ -2,7 +2,9 @@
 Unofficial Hypixel API created for handling Auctions of Skyblock gamemode with ease and efficiency.
 
 # Working with the API
-The root access of the API is at https://hysky.000webhostapp.com/apihandle.php
+The root of the API is at https://hysky.000webhostapp.com/apihandle.php
+
+Right now you can access the API for free without an API key as it's still in Beta.
 
 So let me tell you how this API exactly works: 
 
@@ -54,13 +56,13 @@ So First of all let's take a look at what are we actually going to be working wi
 
 Now let's get into how to make requests to the API:
 
-```https://hysky.000webhostapp.com/apihandle.php?key={API_KEY}&req=top```
+```https://hysky.000webhostapp.com/apihandle.php?req=top```
 
 **This will return the (first 200) most expensive auctions.**
 
 ---
 
-```https://hysky.000webhostapp.com/apihandle.php?key={API_KEY}&req=search&query={SEARCH_QUERY}```
+```https://hysky.000webhostapp.com/apihandle.php?req=search&query={SEARCH_QUERY}```
 
 This will search through the given search query, also note that this exactly works like skyah's search, so if you entered "/ah Mlotov" in the query it will only show the available auctions of that player only.
 To get very specific results please remove any white spaces between words, ex: "StrongDragonBoots".
